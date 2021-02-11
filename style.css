@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 
-
+/* === GLOBAL SETTINGS === */
 * {
     font-family: 'Open Sans', sans-serif
 }
+
 h1 {
     color: #3e3e3e
 }
@@ -28,19 +29,9 @@ p {
     border-radius: 100%;
 }
 
-/* to be deleted >>>>>>>>>> */
-#top .top-text {
-    background-color: lemonchiffon;
-}
-
-#top .top-image {
-    background-color: blue;
-}
-/* <<<<<<<<<<<<<< to be deleted  */
-
-
-#top .image-container{
-    background-color: lightblue;
+#top {
+    background-color: aliceblue;
+    padding: 10%; 
 }
 
 @media screen and (max-width: 767px) {
@@ -49,7 +40,23 @@ p {
     }
 }
 
+
 /* === SKILLS === */
+#skills {
+    background-color:aquamarine;  
+}
 
+#skills .languages {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
+#skills .languages div {
+	margin: 30px; 
+}
+
+#skills .languages i {
+	font-size: 80px;
+}
 
