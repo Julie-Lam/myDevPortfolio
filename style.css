@@ -133,8 +133,38 @@ p {
 }
 
 
+/* === CONTACT === */
 
+#contact-form {
+    background-color: #303030;
+}
 
+#contact-form h1 {
+    color: #fff; 
+}
 
+#contact-form p {
+    color: #999; 
+    font-size: 1em;
+}
+
+#contact-form input {
+    background-color: rgb(40, 40, 40);
+    border: none; 
+}
+
+#contact-form textarea {
+    resize: none; 
+    background-color:  rgb(40, 40, 40);
+    border:none; 
+}
+
+#contact-form .row div {
+    margin: 10px 0px; 
+}
+
+#contact-form header {
+    text-align: center; 
+}
 
 
