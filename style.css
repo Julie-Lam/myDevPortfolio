@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
   }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: #3e3e3e; 
     font-size: 3em;
@@ -135,20 +140,49 @@ p {
 
 /* === CONTACT === */
 
-#contact-form {
+#contact-form, 
+footer {
     background-color: #303030;
 }
 
-#contact-form h1 {
+#contact-form h1, 
+#contact-form i {
     color: #fff; 
 }
 
 #contact-form p {
-    color: #999; 
-    font-size: 1em;
+    color: #999;
 }
 
-#contact-form input {
+#contact-form a {
+    color: #999; 
+    font-size: 2.5em;
+}
+
+#contact-form .contact-option {
+    /* border: 1px solid blueviolet;  */
+    margin: 30px; 
+}
+
+#contact-form .contact-option {
+    text-align: center;
+}
+
+#contact-form .contact-option i {
+    position: relative; 
+    top: 0; 
+    transition: top ease 0.5s; 
+    padding: 15px; 
+}
+
+#contact-form .contact-option i:hover {
+    top: -10px; 
+    color: black; 
+}
+
+
+/* === CONTACT FORM STYLING === */
+/* #contact-form input {
     background-color: rgb(40, 40, 40);
     border: none; 
 }
@@ -162,9 +196,14 @@ p {
 #contact-form .row div {
     margin: 10px 0px; 
 }
+*/
 
-#contact-form header {
-    text-align: center; 
+
+/* === FOOTER === */
+#footer div {
+    /* background-color:lightcoral; */
+    border-top: black 1px solid;
+    padding-top: 20px; 
 }
 
-
+/* TODO: Get rid of white bar at bottom CSS reset? */
