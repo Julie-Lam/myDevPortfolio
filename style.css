@@ -55,6 +55,10 @@ p {
     font-size: 1.5em; 
 }
 
+#nav li {
+    margin: 0px 15px;
+}
+
 
 /* === TOP === */
 #top .image-container {
